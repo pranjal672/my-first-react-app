@@ -1,0 +1,25 @@
+.section {
+  flex: 1;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 80%;
+  gap: 3rem;
+}
+
+form div {
+  display: grid;
+  place-content: center;
+  grid-template-columns: 1fr 1fr;
+}
